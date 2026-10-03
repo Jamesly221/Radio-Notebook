@@ -1,0 +1,28 @@
+YOUR RADIO ENGINEERING NOTEBOOK
+
+Start with a question you can measure: Does moving an antenna change its SWR? How repeatable is the result?
+
+1. Open the antenna comparison template from data/templates, or start a new experiment.
+2. Record equipment, calibration, setup, procedure and environmental conditions.
+3. Save the experiment as a JSON file in your own experiment folder.
+4. Import a CSV sweep in Measurements & plots. Required columns are frequency_mhz and swr. The included demo is synthetic, not an actual test.
+5. Record the CSV filename and your interpretation in Observations. State limitations in Conclusion.
+
+CURRENT FOUNDATION
+Experiment files, antenna estimates, reflected-power calculations and an SWR plot work offline. Measurement files are opened separately; they are not embedded in experiment JSON. Notes do not autosave; save explicitly with Ctrl+S. Unsaved changes prompt before closing or opening another experiment.
+
+NEXT DEVELOPMENT
+Link CSVs/photos to each experiment; add equipment records, comparison plots, dB and feedline tools, Markdown/PDF reports, and instrument-specific imports. Live radio control is future work.
+
+EDITABLE ORGANIZATION
+src/ui: windows and controls
+src/radio: calculations and CSV parsing
+src/notebook: experiment file handling
+data/templates: editable experiment templates
+assets/images: diagrams and photos for the application
+assets/icons: application artwork
+examples/measurements: synthetic example CSVs
+docs: guides and future plans
+scripts: packaging and desktop shortcut
+
+Keep personal experiments outside the source repository unless you deliberately want to publish them. This application neither transmits nor changes radio settings.

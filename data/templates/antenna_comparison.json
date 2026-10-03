@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "title": "Antenna comparison",
+  "date": "",
+  "question": "How does antenna placement affect measured SWR?",
+  "equipment": "Record radio/analyzer model, antenna, cable, adapters and calibration.",
+  "procedure": "Define frequency range and step size. Hold cable and instrument setup constant. Record each placement and repeat measurements.",
+  "observations": "Record measurements, surroundings, repeatability and uncertainty. Save each CSV separately.",
+  "conclusion": "Compare results against the question. State limitations and the next test."
+}
